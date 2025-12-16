@@ -2,4 +2,13 @@
 <resources>
 
     <style name="Theme.Profile" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <style name="Theme.Profile.Splash"
+        parent="Theme.SplashScreen">
+        
+        <item name="windowSplashScreenAnimatedIcon">@drawable/japanese_drawing</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.Profile</item>
+    </style>
+
 </resources>
